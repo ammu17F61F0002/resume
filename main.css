@@ -19,8 +19,7 @@ img{
    margin: auto;
 
 }
-h2,
-h3{
+h2,h3{
   text-align:center;
 }
 .a{
@@ -29,6 +28,7 @@ h3{
   text-decoration: none;
   background-color: #CAD5D6  ;
   padding: 2%;
+  font-size:30px;
 }
 .leftchild{
   width: 30%;
@@ -76,15 +76,16 @@ h3{
   h3{
     text-align:center;
   }
-  .a{
+  a{
     display:block;
     text-align:center;
     text-decoration: none;
     background-color: #CAD5D6  ;
     padding: 2%;
+    font-size:50px;
   }
   .leftchild{
-    width: 80%;
+    width: 92%;
     border: 2px solid black;
     padding: 2%;
     margin:2%;
@@ -92,7 +93,7 @@ h3{
     background-color:white;
   }
   .rightchild{
-    width: 80%;
+    width: 92%;
     border: 2px solid black;
     padding:2%;
     margin: 2%;
@@ -101,7 +102,7 @@ h3{
     text-decoration: none;
     font-stretch: expanded;
     font-style: normal;
-    font-size: 20%;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width:481px) and (max-width:768px){
@@ -139,15 +140,15 @@ h3{
   }
   .leftchild{
     width: 50%;
-    border: 2px solid black;
+    border: 2px solid blue;
     padding: 2%;
     margin:2%;
     text-align: center;
     background-color:white;
   }
   .rightchild{
-    width: 50%;
-    border: 2px solid black;
+    width:50%;
+    border: 2px solid blue;
     padding:2%;
     margin: 2%;
   }
@@ -155,7 +156,7 @@ h3{
     text-decoration: none;
     font-stretch: expanded;
     font-style: normal;
-    font-size: 20%;
+    font-size: 20px;
   }
 
 }
