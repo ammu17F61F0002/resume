@@ -50,6 +50,8 @@ h2,h3{
   font-style: normal;
   font-size: 20%;
 }
+
+}
 @media only screen and (min-width:320px) and (max-width:480px){
   .parent{
     display:flex;
@@ -158,5 +160,10 @@ h2,h3{
     font-style: normal;
     font-size: 20px;
   }
-
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
 }

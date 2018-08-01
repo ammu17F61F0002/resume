@@ -23,5 +23,23 @@
       "Institute":"C.S.I.St.Thomas.hr.Sec.School",
       "data":["2012-19","89"]
     }
+  ],
+  "skills":[
+    {
+      "title":"programming language",
+      "set":["java","c","python","c++"]
+    },
+    {
+      "title":"Data Bases",
+      "set":["SQL","mySql","Oracle","NoSql"]
+    },
+    {
+      "title":"Operating System",
+      "set":["windows","dos","linus","mac"]
+    },
+    {
+      "title":"web technology",
+      "set":["HTML","css","PHP","javascript"]
+    }
   ]
 }
