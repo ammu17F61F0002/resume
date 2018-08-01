@@ -41,5 +41,16 @@
       "title":"web technology",
       "set":["HTML","css","PHP","javascript"]
     }
+  ],
+  "achievements":[
+    {
+    "achievedData":"Got  second Prize in PPT presentation."
+  },
+  {
+  "achievedData":"Got  first Prize in Essay competition."
+},
+{
+"achievedData":"Got first Prize in running competition."
+}
   ]
 }

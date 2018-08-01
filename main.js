@@ -28,6 +28,7 @@ fetchedData.then(data=>{
   career(data.career);
   education(data.education);
   skills(data.skills);
+  achievements(data.achievements);
 })
 var child2=document.querySelector("#child2");
 // career
@@ -49,7 +50,11 @@ function education(edu){
   var heading=document.createElement("hr");
   child2.appendChild(heading);
   var table=document.createElement("table");
-  child2.appendChild(table);
+var div=document.createElement("div");
+div.classList.add("table-responsive");
+child2.appendChild(div);
+
+  div.appendChild(table);
   var tr="<tr> <td> S.no </td><td> Degree</td><td> institute </td> <td> data </td>";
   table.innerHTML=tr;
   table.border="1";
@@ -79,3 +84,20 @@ function skills(skill){
       list.appendChild(listItem);
     }
   }}
+  // achievements
+  function achievements(achievement){
+    var h2=document.createElement("h1");
+    h2.textContent="achievements";
+    child2.appendChild(h2);
+    var heading=document.createElement("hr");
+    child2.appendChild(heading);
+    var list=document.createElement("ul");
+    child2.appendChild(list);
+
+    for (var i=0;i<achievement.length;i++) {
+        var listItem=document.createElement("li");
+      listItem.textContent=achievement[i].achievedData;
+      list.appendChild(listItem);
+
+    }
+  }
