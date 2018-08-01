@@ -1,5 +1,27 @@
 {
   "career":{
     "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
-  }
+  },
+  "education":[
+    {
+      "degree":"MCA (Master of Computer application)",
+      "Institute":"Siddhartha institute of engineering and technology",
+      "data":["2020-19","78"]
+    },
+    {
+      "degree":"BSc (Computer science)",
+      "Institute":"Himaja Degree College",
+      "data":["2017-19","85"]
+    },
+    {
+      "degree":"MPC",
+      "Institute":"C.S.I.St.Thomas.hr.Sec.School",
+      "data":["2014-19","83"]
+    },
+    {
+      "degree":"10",
+      "Institute":"C.S.I.St.Thomas.hr.Sec.School",
+      "data":["2012-19","89"]
+    }
+  ]
 }

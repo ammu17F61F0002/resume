@@ -26,16 +26,30 @@ var fetchedData=loadJSON("data.json");
 fetchedData.then(data=>{
   console.log(data);
   career(data.career);
+  education(data.education);
 })
 var child2=document.querySelector("#child2");
+// career
 function career(car){
-  var h2=document.createElement("h3")
-  h2.textContent="career Objective"
+  var h2=document.createElement("h1");
+  h2.textContent="Career Objective";
   child2.appendChild(h2);
-  var heading=document.createElement("hr")
-  heading.textContent="";
+  var heading=document.createElement("hr");
   child2.appendChild(heading);
   var p=document.createElement("p");
   p.textContent=car.info;
   child2.appendChild(p);
 }
+// education
+function education(edu){
+  var h2=document.createElement("h1");
+  h2.textContent="Educational Qualification";
+  child2.appendChild(h2);
+  var heading=document.createElement("hr");
+  child2.appendChild(heading);
+  var table=document.createElement("table");
+  child2.appendChild(table);
+  var tr="<tr> <td> S.no </td><td> Degree</td><td> institute </td> <td> data </td>";
+  table.innerHTML=tr;
+  table.border="1";
+ }
